@@ -1,0 +1,49 @@
+h1{
+    height:100px;
+    width:50%;
+    transition: all 3s ease-in-out;
+}
+
+h1{
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+}
+
+/*h1:hover{
+    border-radius: 10px;
+    transform:scale(1.25);
+}*/
+
+body{
+    background: url("c:/vimala/Pastel-Pink.jpg");
+    padding: 20px;
+}
+
+img{
+    padding: 20px;
+    margin-top: 125px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    height: 15px;
+    width: 250px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:medium;
+}
+
+h3{
+    font-family: 'Parisienne', cursive;
+}
+.mydiv{
+    font-size:x-large;
+    font-weight: 500;
+    margin: 1.66%;
+    margin-right: 1.66%;
+    font-family: 'Dancing Script', cursive;
+}
+
