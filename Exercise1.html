@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+   
+</head>
+<body>
+    <script>
+    var choice=prompt("Do you want to enter the temperature in Farenheit (F) or Centigrade (C)");
+    if (choice=='F' || choice=='f')
+    {
+        var farenheit = prompt("Please enter the temperature in F");
+        var centigrade = (farenheit-32)*5/9;
+        console.log(farenheit + " F is: " + centigrade + " C");
+    }
+    else if (choice=='C' || choice=='c')
+    {
+        var centigrade = prompt("Please enter the temperature in C");
+        var farenheit = (centigrade * 9/5)+32;
+        console.log(centigrade + " C is: " + farenheit + " F");
+    }
+    </script>
+</body>
